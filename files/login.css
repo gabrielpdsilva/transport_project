@@ -1,3 +1,8 @@
+/*
+*	obs.: Gabriel, Arruma esse CSS aqui man, eu não manjo de deixar as coisas bonitas
+*	só precisa arrumar a tabela de cargas, e alguns outros bugs que eu fiz, pls.
+*/
+
 body{
 	margin: 0;
 	padding: 0;
@@ -54,3 +59,32 @@ body{
 	cursor: pointer;
 	margin: 12px 0;
 }
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: white;
+}
+
+a:hover{
+	color: #9a35e8;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+/*tr:nth-child(even) {
+	background-color: #dddddd;
+}*/
