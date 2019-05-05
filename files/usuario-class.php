@@ -4,6 +4,7 @@
     class Usuario{
         var $nome;  # nome do usuário
         var $cnh;   # CNH do usuário
+        var $email;
 
         # método responsável por definir o nome do usuário
         function set_nome($new_nome){
@@ -27,6 +28,18 @@
         # método responsável por retornar o CNH do usuário
         function get_cnh(){
             return $this->cnh;  # retorna o CNH do usuário
+        }
+
+        # método responsável por definir o email do usuário
+        function set_email($new_email){
+            # caso o novo email não seja null
+            if($new_email != null && $new_email != '\0')
+                $this->email = $new_email;    # define o novo email
+        }
+
+        # método responsável por retornar o email do usuário
+        function get_email(){
+            return $this->email; # retorna o email do usuário
         }
     }
 ?>

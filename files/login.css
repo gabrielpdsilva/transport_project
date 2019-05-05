@@ -73,18 +73,23 @@ a:hover{
 	color: #9a35e8;
 }
 
+.a-menus-links{
+	margin: 10px;
+	padding: 20px;
+	float: right;
+}
+
 table {
 	font-family: arial, sans-serif;
 	border-collapse: collapse;
-	width: 100%;
+	width: 80%;
+	margin: 100px 150px;
+	padding: 50px 50px;
 }
 
 td, th {
 	border: 1px solid #dddddd;
 	text-align: left;
 	padding: 8px;
+	background-color: white;
 }
-
-/*tr:nth-child(even) {
-	background-color: #dddddd;
-}*/

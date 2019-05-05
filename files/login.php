@@ -22,15 +22,17 @@
 	</form>
 		
 	<?php 
-		// verifica se os valores foram definidos
-
-		// (se estão definidos e não estão vazios)
+		session_start();
+		# verifica se os valores foram definidos
+		# (se estão definidos e não estão vazios)
 		if(isset($_POST['email']) && !empty($_POST['email'])
 		&&	isset($_POST['senha']) && !empty($_POST['senha'])){
-			$email = $_POST['email'];	// email
-			$senha = $_POST['senha'];	// senha
+			$email = $_POST['email'];	# email
+			$senha = $_POST['senha'];	# senha
 
 			if($email == 'admin@business.com'/* precisa mudar */ && $senha == 'admin123' /* precisa mudar */){
+				$_SESSION['isLogged'] = true;
+				$_SESSION['email'] = $email;
 				header("location:cargas.php");
 				exit(0);
 			}
