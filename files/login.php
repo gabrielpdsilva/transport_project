@@ -19,6 +19,7 @@
 			<input class="btn" type="submit" name="entrar" value="Entrar">
 
 		<a href="recuperar-senha.php"> esqueci minha senha. </a>
+		<a href="cadastro.html"> Cadastre-se </a> <!-- ATENÇÃO ESSE LINK DEVE SER MUDADO PARA PHP POIS O ARQUIVO POR ENQUANTO ESTA EM HTML-->
 		
 	</form>
 		
