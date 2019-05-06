@@ -7,6 +7,11 @@ body{
 	text-align:center;
 	
 }
+
+fieldset{
+	background: rgba(0,0,0,0.5);
+}
+
 #estado{
 	float:left;
 	margin:10px;
@@ -38,7 +43,8 @@ body{
 
 .btn{
 	width: 10%;
-	background: none;
+	/*background: #7801c6;*/
+	background-image: linear-gradient(#3a0082, #811cff);
 	border: 2px solid white;
 	color: white;
 	padding: 5px;
