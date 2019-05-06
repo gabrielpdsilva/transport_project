@@ -9,6 +9,7 @@ body{
 	font-family: sans-serif;
 	background: url(https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
 	background-size: cover;
+	
 
 }
 
@@ -60,7 +61,7 @@ body{
 	margin: 12px 0;
 }
 /*
-* no Bloco a do link para esquci a senha inclui o comando margin:4px para que coubesse o outro link para levar
+* no Bloco a do link  esqueci a senha inclui o comando margin:4px para que coubesse o outro link para levar
 usuário para a área de cadastro
 */
 
@@ -79,23 +80,18 @@ a:hover{
 	color: #9a35e8;
 }
 
-.a-menus-links{
-	margin: 10px;
-	padding: 20px;
-	float: right;
-}
-
 table {
 	font-family: arial, sans-serif;
 	border-collapse: collapse;
-	width: 80%;
-	margin: 100px 150px;
-	padding: 50px 50px;
+	width: 100%;
 }
 
 td, th {
 	border: 1px solid #dddddd;
 	text-align: left;
 	padding: 8px;
-	background-color: white;
 }
+
+/*tr:nth-child(even) {
+	background-color: #dddddd;
+}*/

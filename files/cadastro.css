@@ -2,8 +2,29 @@ body{
 	font-family: sans-serif;
 	background: url(https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
 	background-size: cover;
+	background-attachment:scroll;
 	color:white;
-	text-align: center;
+	text-align:center;
+	
+}
+#estado{
+	float:left;
+	margin:10px;
+	background:none;
+	border: white;
+	border-bottom: 2px solid white;
+	
+}
+.borda input{
+	border: none;
+	border-bottom: 2px solid white;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
 }
 .textinput{
 	
@@ -12,25 +33,17 @@ body{
 	font-size: 20px;
 	padding: 2px 0;
 	margin: 8px 0;
+	
 }
-.textinput input{
-	border: none;
-	outline: none;
-	background: none;
-	color: white;
-	font-size: 18px;
-	width: 80%;
-	float: center;
-	margin: 0 10px;
-}
+
 .btn{
 	width: 10%;
 	background: none;
-	border: 2px solid #5a00c9;
+	border: 2px solid white;
 	color: white;
 	padding: 5px;
-	font-size: 18px;
+	font-size: 22px  ;
 	cursor: pointer;
-	margin: 12px 0;
+	margin: 30px 0;
 	size:12px;
 }
